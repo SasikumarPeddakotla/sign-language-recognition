@@ -1,0 +1,281 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(247, 237, 225)
+}
+
+.App {
+  height: 100vh;
+  text-align: center;
+  margin:0;
+  padding: 0;
+}
+
+.App-header {
+  text-align: center;
+}
+
+.App-header h1{
+  text-shadow: 2px 2px 6px black;
+}
+
+.CamAndSentence {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items at the start of the cross axis (top) */
+}
+
+.Webcam-container {
+  position: relative;
+  margin-right: 5%; /* Add some spacing between the webcam and the textarea */
+  box-shadow: 1px 1px 4px black;
+  margin-top: 20px;
+}
+
+.Webcam-container h2 {
+  position: absolute; /* Position the prediction text absolutely */
+  top: 10px; /* Adjust the distance from the top */
+  left: 10px; /* Adjust the distance from the left */
+  background-color: aliceblue;
+  color: darkblue;
+  font-size: 20px; /* Adjust the font size as needed */
+  padding: 5px; /* Add some padding for better visibility */
+  border-radius: 5px; /* Optional: Add rounded corners */
+}
+
+.textarea-container {
+  width: 700px; /* Adjust the width as needed */ 
+  height: 477px;
+  background-color: rgb(250, 202, 90);
+  overflow-y: auto;
+  max-height: 300px;
+  max-width: 700px;
+  margin-top: 50px;
+  position: relative;
+  box-shadow: 1px 1px 4px black;
+}
+
+.text{
+  color:white;
+  font-family: sans-serif;
+  font-size: larger;
+}
+
+.clear-button {
+  position: absolute;
+  bottom: 26%;
+  right: 23%;
+  margin-bottom: 10px;
+  background-color: rgb(35, 35, 246);
+  border: none;
+  border-radius: 10px;
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+  font-weight: normal;
+  box-shadow: 1px 1px 4px black;
+}
+
+ ul {
+  list-style: none;
+  padding: 0;
+  margin-right: 20;
+}
+
+ ul li{
+  margin-top:70px;
+  margin-right: 40px;
+}
+
+/* button{
+  font-size: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}  */
+
+.Home h1, .App-header h1{
+  font-size: 40px;
+  color: black;
+}
+
+.Home h1{
+  text-shadow: 1px 1px 1px black;
+}
+
+.Tutorial{
+  color: black;
+}
+
+.Tutorial h1{
+  text-shadow: 1px 1px 2px black;
+}
+
+.languages-items{
+  padding-bottom: 50px;
+  margin-top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.languages-item{
+  padding-left: 2%;
+  margin: 30px;
+}
+
+.languages-item h1{
+  text-shadow: 1px 1px 1px black;
+}
+
+.language-names{
+  text-decoration: none;
+}
+
+.language-names h1{
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.Home img{
+  box-shadow: 10px 15px 4px rgba(0, 0, 0, 0.1); 
+  border-radius: 8px; 
+  width: 450px;
+  margin-bottom: 20px;
+}
+
+.about-div p{
+  text-align: justify;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 17px;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+  background-color: rgb(145, 117, 103);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 100px;
+}
+
+.contact-container {
+  margin: 20px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.member {
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #0b0b0b;
+  border-radius: 5px;
+}
+
+.contact-form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.clear-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.clear-button:hover {
+  background-color: #0056b3;
+}
+
+.toggle-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-left:200px;
+  margin-right: 300px;
+  margin-bottom: 50px;
+}
+
+.toggle-buttons button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border : 0px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(247, 237, 225);
+  font-size: 20px !important;
+}
+
+.active {
+  color: white;
+  background-color: black !important;
+  font-weight: bold;
+  box-shadow: 3px 3px 6px black;
+}
+
+.notActive{
+  border-bottom: 2px solid black !important;
+  background-color: rgb(251, 251, 251) !important;
+}
+
+.american_signs_img{
+  width:900px;
+}
+
+.indian_signs_img{
+  width:700px;
+}
+
+.GesturesDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.GesturesDiv div {
+  text-align: center;
+  width: 25%; 
+  margin-bottom: 70px;
+}
+
+.GesturesDiv img {
+  width: auto;
+  height: 300px; 
+  box-shadow: 3px 3px 8px black;
+}
+
+.GesturesDiv h2{
+  text-shadow: 1px 1px 1px black;
+  font-weight: normal;
+}
+
+.mail-logo{
+  width:50px;
+  margin-bottom:-10px;
+  margin-right:10px;
+}
+
+.github-logo{
+  width:30px;
+  margin-right:20px;
+}
+
+.linkedin-logo{
+  width:35px;
+}

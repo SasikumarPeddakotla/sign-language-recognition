@@ -1,0 +1,16 @@
+0 Bye
+1 Call Me
+2 Good luck
+3 Heart
+4 Hello
+5 Help
+6 I Love You
+7 Me
+8 Movie
+9 Not Okay
+10 Okay
+11 Perfect
+12 Smile
+13 Sorry
+14 Thank You
+15 You
